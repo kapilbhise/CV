@@ -1,63 +1,105 @@
-<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <meta charset="utf-8">
+    <title>
+        Angela's Personal Site
+    </title>
 </head>
+
 <body>
-    <h3>My Contact Details</h3>
+    <table cellspacing="20">
+        <tr>
+            <td><img src="rocket1.png" alt="kapil profile picture" /></td>
+            <td>
+                <h1>Angela Yu</h1>
+                <p><em>Founder and CTO of<strong><a href="#"> the App Brewery</a></strong>.</em></p>
+                <p>I am an iOS and web developer.I love coffee and brew my own beers.</p>
+            </td>
+        </tr>
+    </table>
+    
+   
+    <hr />
+    <h3>Books and Teaching</h3>
     <ul>
-        <li>Near Rajankar Vidhyalaya,<br />Sai Mandir road,<br />Telhara 444108</li>
-        <li>mobile no-1:<a href="#"> 7620976856</a></li>
-        <li>mobile no-2:<a href="#"> 8485020062</a></li>
-        <li>E-mail:<a href="#"> kapilbhise2408@gmail.com</a></li>
+        <li>
+            the complete iOS development Bootcamp
+        </li>
+        <li>the complete web development Bootcamp</li>
     </ul>
     <hr />
-    <form action="mailto:londonappbrewery.com" method="post" enctype="text/plain">
-        <label>Your Name:</label>
-        <input type="text" name="yourName" value="" />
+    <h3>Work Experience</h3>
+    <table >
+        <thead>
+            <tr>
+                <th>Dates
+                </th>
+                <th>Work</th>
+            </tr>
+        </thead>
 
-        <br />
-        <label>Your Email:</label>
-        <input type="email" name="YourEmail" value="" />
-        <br />
-        <label>Your Message:</label>
-        <br />
-        <textarea name="YourMessage" rows="10" cols="30"></textarea><br />
-        <input type="submit" name="" />
+        <tbody>
+            <tr>
+                <td>2010-2013</td>
+                <td>Lead Developer at Tempo App</td>
+            </tr>
+            <tr>
+                <td>2010</td>
+                <td>Reasearcher at Institute of Cognitive Neuroscience</td>
+            </tr>
+        </tbody>
 
-    </form>
-</body>
-</html>﻿<!DOCTYPE html>
+        <tfoot>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
-    <h3>My Contact Details</h3>
-    <ul>
-        <li>Near Rajankar Vidhyalaya,<br />Sai Mandir road,<br />Telhara 444108</li>
-        <li>mobile no-1:<a href="#"> 7620976856</a></li>
-        <li>mobile no-2:<a href="#"> 8485020062</a></li>
-        <li>E-mail:<a href="#"> kapilbhise2408@gmail.com</a></li>
-    </ul>
+        </tfoot>
+        
+    </table>
     <hr />
-    <form action="mailto:londonappbrewery.com" method="post" enctype="text/plain">
-        <label>Your Name:</label>
-        <input type="text" name="yourName" value="" />
+    <h3>Skills</h3>
 
-        <br />
-        <label>Your Email:</label>
-        <input type="email" name="YourEmail" value="" />
-        <br />
-        <label>Your Message:</label>
-        <br />
-        <textarea name="YourMessage" rows="10" cols="30"></textarea><br />
-        <input type="submit" name="" />
+    <table cellspacing="10">
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>iOS Development</td>
+                        <td>*****</td>
+                    </tr>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>*****</td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Photograghy</td>
+                        <td>**</td>
+                    </tr>
+                    <tr>
+                        <td>Painting</td>
+                        <td>***</td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    </table>
 
-    </form>
+
+
+
+    
+   
+    <hr />
+    <a href="HObbies.html">My Hobbies</a>
+    <br />
+    <a href="contact.html">Contact me</a>
+
+
+
 </body>
 </html>
